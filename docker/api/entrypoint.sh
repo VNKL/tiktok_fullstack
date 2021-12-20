@@ -3,8 +3,8 @@
 playwright install
 playwright install-deps
 
-sudo apt-get install libsoup2.4-1
-sudo apt-get install libgudev-1.0-0
+apt-get install libsoup2.4-1
+apt-get install libgudev-1.0-0
 
 python manage.py collectstatic --noinput
 python manage.py makemigrations --noinput
