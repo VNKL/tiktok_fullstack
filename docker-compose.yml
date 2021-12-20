@@ -27,8 +27,6 @@ services:
       - DB_PORT=5432
       - DJANGO_SECRET_KEY=django-insecure-9s3j-+7z+67lb5n&gc0l-qx0&br%zw*i*6*b2@8%=&9z+%x-_c
       - PRODUCTION=1
-    volumes:
-      - ./volumes/api/parsing_results:/usr/src/api/parsing_results
     depends_on:
       - db
     ports:

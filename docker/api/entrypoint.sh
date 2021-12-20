@@ -1,10 +1,10 @@
 #! /bin/bash
 
-playwright install
-playwright install-deps
-
 apt-get install libsoup2.4-1
 apt-get install libgudev-1.0-0
+
+playwright install
+playwright install-deps
 
 python manage.py collectstatic --noinput
 python manage.py makemigrations --noinput
