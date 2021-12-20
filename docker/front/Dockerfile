@@ -1,4 +1,4 @@
-FROM node AS builder
+FROM node:16.3.0-alpine AS builder
 
 
 WORKDIR usr/src/front
