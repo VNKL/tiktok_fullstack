@@ -9,7 +9,7 @@ RUN git clone https://github.com/VNKL/tiktok_front.git .
 
 RUN npm install
 
-RUN npm run build --prod
+RUN npm run build
 
 
 
