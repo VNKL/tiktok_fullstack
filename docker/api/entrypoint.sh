@@ -1,8 +1,5 @@
 #! /bin/bash
 
-apt-get install libsoup2.4-1
-apt-get install libgudev-1.0-0
-
 playwright install
 playwright install-deps
 
