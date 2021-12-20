@@ -1,6 +1,7 @@
 #! /bin/bash
 
 playwright install
+playwright install-deps
 
 python manage.py collectstatic --noinput
 python manage.py makemigrations --noinput
