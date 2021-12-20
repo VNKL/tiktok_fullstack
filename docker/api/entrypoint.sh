@@ -1,5 +1,6 @@
 #! /bin/bash
 
+playwright install
 
 python manage.py collectstatic --noinput
 python manage.py makemigrations --noinput
